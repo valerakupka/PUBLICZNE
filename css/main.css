@@ -10,7 +10,7 @@ body * {
     display: flex;
   }
   .container > header {
-    background-color: rgba(22, 12, 12, 0.637);
+    background-color: rgb(113, 63, 114); 
     color: whitesmoke;
   }
   .container>header>h1{
@@ -18,7 +18,7 @@ body * {
       font-weight: normal;
   }
   .container > nav {
-    background-color:rgba(22, 12, 12, 0.637);
+    background-color:rgb(113, 63, 114); 
   }
   .container>nav>ul {
     width: 60%;
@@ -27,15 +27,15 @@ body * {
     width: 24%;
 }
   main {
-    background-color:rgba(22, 12, 12, 0.637);
+    background-color:rgb(113, 63, 114); 
     color: whitesmoke;
-    border:1px solid grey; 
+    border:1px solid rgb(113, 63, 114); 
   }
   .container> article {
    width: 100%; 
-   background-color:rgba(22, 12, 12, 0.637);
+   background-color:rgb(113, 63, 114); 
     color: whitesmoke;
-    border:1px solid grey; 
+    border:1px solid rgb(113, 63, 114); 
   }
   .container> article header{
     font-size: 125%;
@@ -74,7 +74,7 @@ body * {
       font-weight: lighter;
   }
   .container > footer {
-    background-color: rgba(22, 12, 12, 0.637);
+    background-color: rgb(113, 63, 114); 
     color: whitesmoke;
   }
 
