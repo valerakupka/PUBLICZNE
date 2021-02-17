@@ -10,7 +10,7 @@ body * {
     display: flex;
   }
   .container > header {
-    background-color: rgba(22, 12, 12, 0.637);
+    background-color: rgb(113, 63, 114); 
     color: whitesmoke;
   }
   .container>header>h1{
@@ -18,7 +18,7 @@ body * {
       font-weight: normal;
   }
   .container > nav {
-    background-color:rgba(22, 12, 12, 0.637);
+    background-color:rgb(113, 63, 114); 
     width: 60%;
   }
 
@@ -92,7 +92,7 @@ nav ul a {
     font-size: 125%;
 }
  .container > footer {
-    background-color: rgba(22, 12, 12, 0.637);
+    background-color: rgb(113, 63, 114); 
     color: whitesmoke;
   }
 footer p{

@@ -9,21 +9,21 @@ body * {
     margin: auto;
     display: flex;
   }
-  .container > header {
+  .header {
     background-color: rgb(113, 63, 114); 
     color: whitesmoke;
   }
-  .container>header>h1{
+  .header__title{
       font-size: 500%;
       font-weight: normal;
   }
-  .container > nav {
+  .navigation{
     background-color:rgb(113, 63, 114); 
   }
-  .container>nav>ul {
+  .menu{
     width: 60%;
 }
-.container>nav>ul>li {
+.menu_item {
     width: 24%;
 }
   main {
@@ -31,28 +31,28 @@ body * {
     color: whitesmoke;
     border:1px solid rgb(113, 63, 114); 
   }
-  .container> article {
+  .articles {
    width: 100%; 
    background-color:rgb(113, 63, 114); 
     color: whitesmoke;
     border:1px solid rgb(113, 63, 114); 
   }
-  .container> article header{
+  .articles__header{
     font-size: 125%;
     font-weight: lighter;
   }  
 
-   main>section article{
+  .section__article{
     background-color: whitesmoke;   
   }
-  main section header{
+  .section__header{
     font-size: 125%;
     font-weight: lighter; 
   }
-  aside{
+  .aside{
     width: 30%;  
   }
-  .container > aside nav ul a {
+  .type__link{
     display: block;
     padding: 0.5em 1em;
     text-decoration: none;
@@ -63,17 +63,17 @@ body * {
     border-radius: 0 0 0 0;
     transition-duration: 0.5s;
   }
- .container>aside> nav ul a:hover {
+ .type__link:hover {
     background-color: rgb(211, 43, 99);
     color: hsl(0, 100%, 100%);
   }
-  .container>aside>header{
+  .aside__header{
       background-color: palevioletred;
       color: whitesmoke;
       font-size: 125% ;
       font-weight: lighter;
   }
-  .container > footer {
+  .footer {
     background-color: rgb(113, 63, 114); 
     color: whitesmoke;
   }
@@ -99,7 +99,7 @@ nav ul a {
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       font-size: 140%;
   }
-  footer>nav ul a{
+  .litlemenu__link{
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       font-size: 125%;
   }
@@ -107,6 +107,6 @@ nav ul a {
     background-color: rgb(211, 43, 99);
     color: hsl(0, 100%, 100%);
   }
-  footer p{
+  .footer__paragraph{
     font-size: 100%;
   }
