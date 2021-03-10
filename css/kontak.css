@@ -9,17 +9,12 @@ body * {
   max-width: 1200px;
   margin: auto;
   display: flex;
-  flex-wrap: wrap;
 }
 
 .header {
   background-color: #713f72;
   color: whitesmoke;
   padding: 8px;
-  display: flex;
-  align-items: center;
-  flex-basis: 40%;
-  height: 15vh;
 }
 
 .header__title {
@@ -27,13 +22,25 @@ body * {
   font-weight: normal;
 }
 
-.navigation {
+.container > nav {
   background-color: #713f72;
   width: 60%;
 }
 
-.menu__item {
+.container > nav > ul > li {
   width: 24%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-basis: 40%;
+  height: 15vh;
 }
 
 .container > nav {
@@ -76,43 +83,45 @@ a:hover {
 
 main {
   display: flex;
-  flex-wrap: wrap;
   flex-basis: 100%;
   flex-direction: reverse;
   background-color: whitesmoke;
 }
 
 .articles {
-  flex-basis: 100%;
+  flex-basis: 50%;
   display: flex;
-  flex-wrap: wrap;
-  /* flex-direction: row;   */
-  /* justify-content: space-around; */
+  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
 }
 
-.articles__header {
+.articles__paragraph {
   display: flex;
-  flex-basis: 100%;
-  justify-content: center;
-  align-items: center;
-  height: 8vh;
+  flex-basis: 33%;
+  text-align: center;
 }
 
-.articles__article {
-  display: flex;
-  flex-basis: 8%;
-  /* text-align: center; */
-  align-items: space-between;
+.litle-menu {
+  justify-content: space-evenly;
+}
+
+.litle-menu__link {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 125%;
+}
+
+.litle-menu__item {
+  flex-basis: 20%;
 }
 
 .footer {
-  background-color: #713f72;
-  color: whitesmoke;
   flex-basis: 100%;
   display: flex;
   height: 10vh;
   align-items: center;
+  background-color: #713f72;
+  color: whitesmoke;
 }
 
 .footer__paragraph {
@@ -125,17 +134,4 @@ main {
 .footer__nav {
   flex-basis: 70%;
 }
-
-.litle-menu {
-  justify-content: space-evenly;
-}
-
-.litle-menu__item {
-  flex-basis: 20%;
-}
-
-.litle-menu__link {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 125%;
-}
-/*# sourceMappingURL=filmy.css.map */
+/*# sourceMappingURL=kontak.css.map */
