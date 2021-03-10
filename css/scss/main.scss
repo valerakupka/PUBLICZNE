@@ -55,7 +55,10 @@ main {
     &__header{
         background-color: palevioletred;
         color: whitesmoke;
+        display: flex;
         font-size: 125% ;
+        justify-content: center;
+        align-items: center;
         font-weight: lighter;
     }
 }
